@@ -1,0 +1,17 @@
+
+<div class="inter">
+<h1>Interpolation Example</h1>
+<h2>{{title}}</h2>
+</div>
+<div class="pro">
+<h1>Property Binding</h1>
+<img [src]="imageurl">
+</div>
+<h1>Event binding</h1>
+<button (click)="incr()">Click</button>
+<button (click)="dcr()" class="ml-2">Click</button>
+<p>{{counter}}</p>
+<h1>TWO WAY DATABINDING</h1>
+<P>Enter Username:</P>
+<input [(ngModel)]="username" placeholder="enter name">
+<p>name is : {{username}}</p>

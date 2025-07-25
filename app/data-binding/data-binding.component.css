@@ -1,0 +1,13 @@
+.inter {
+    background-color: black;
+    color: antiquewhite;
+}
+.pro {
+    background-color: blueviolet;
+    color:aliceblue
+}
+.pro img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
